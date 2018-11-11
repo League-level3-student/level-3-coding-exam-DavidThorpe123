@@ -20,6 +20,7 @@ public class VoteProcessor {
 		}
 		if (votes1 == votes2) {
 			String winner = "TIE";
+			return winner;
 		}
 		return null;
 	}
